@@ -2,7 +2,7 @@ import { writable } from "svelte/store";
 
 const isBrowser = typeof window !== "undefined";
 
-let initialDecks =[{}]
+let initialDecks =[]
 
 let initialCurrentDeck = -2;
 
