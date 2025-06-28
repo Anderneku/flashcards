@@ -15,27 +15,6 @@ const config = {
 			fallback: 'index.html',
 			strict: false
 		}),
-		vite: {
-    plugins: [SvelteKitPWA({
-      strategies: 'generateSW',
-      registerType: 'autoUpdate',
-      includeAssets: ['favicon.png'],
-      manifest: {
-        name: 'Fancy Cards',
-        short_name: 'Cards',
-        start_url: '/',
-        display: 'standalone',
-        background_color: '#ffffff',
-        icons: [
-          {
-            src: '/favicon.png',
-            sizes: '128x128',
-            type: 'image/png'
-          }
-        ]
-      }
-    })]
-  }
 	}
 };
 
