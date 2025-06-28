@@ -37,7 +37,7 @@
 
 	/* Style the front side */
 	.flip-box-front {
-		background-color: rgb(0, 0, 0);
+		background-color: rgb(130, 40, 233);
 		color: white;
 	}
 	
