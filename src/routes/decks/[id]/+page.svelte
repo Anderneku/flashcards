@@ -174,7 +174,7 @@
 
 
  <!-- FLASHCARD -->
-  <div class="h-[800px] rounded-4xl w-[800px] flex flex-col justify-center items-center bg-violet-600 shadow-2xs">
+  <div class="h-[800px] rounded-4xl w-[800px] flex flex-col items-center bg-violet-600 shadow-2xs">
 <div class="p-5">
     <h1 class="text-2xl font-mono">{question == "Nope" ? 0 : flashcardIndex + 1} / {$decks[$currentDeck].cards.length}</h1>
 </div>
@@ -205,11 +205,12 @@
 <style>
 	
 	/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-	.flip-box {
+	
+  .flip-box {
 		background-color: transparent;
 		width: 600px;
 		height: 400px;
-        border-radius: 30px;
+    border-radius: 30px;
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
 	}
 
